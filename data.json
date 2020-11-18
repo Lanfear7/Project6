@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "Random phrase generator",
+            "description": "This will generate a random phrase along with a random background color every 15 seconds",
+            "technologies": ["HTML","CSS","JavaScript"],
+            "live-link": "https://brennanformanek.ca",
+            "github_link": "https://github.com/Lanfear7/TreehouseProject1",
+            "images": "/Images/quoteGen.PNG"
+        },
+        {
+            "id": 2,
+            "project_name": "Data Pagination and Filtering",
+            "description": "Added pagination to profile data to make it a nice user experience ",
+            "technologies": ["HTML","CSS","JavaScript"],
+            "live-link": "https://brennanformanek.ca/JS%20Pagination/",
+            "github_link": "https://github.com/Lanfear7/Project2",
+            "images": "/Images/pagination2.png"
+        },
+        {
+            "id": 3,
+            "project_name": "Interactive Form",
+            "description": "Each form element will check to make sure the user data is formatted correctly ",
+            "technologies": ["HTML","CSS","JavaScript"],
+            "live-link": "https://brennanformanek.ca/Form/",
+            "github_link": "https://github.com/Lanfear7/Porject3",
+            "images": "/Images/form.PNG"
+        },
+        {
+            "id": 4,
+            "project_name": "JavaScript Object Oriented Programming",
+            "description": "Each phrase (song name) is its own object, you have a onscreen keyboard or you own keyboard to use to try to guess the name of the song",
+            "technologies": ["HTML","CSS","JavaScript"],
+            "live-link": "https://brennanformanek.ca/JSOOP/",
+            "github_link": "https://github.com/Lanfear7/Project4",
+            "images": "/Images/OOP4.png"
+        },
+        {
+            "id": 5,
+            "project_name": "Public API Requests",
+            "description": "Each time the page is refreshed the app will send a request the a API to get new user data a display it",
+            "technologies": ["HTML","CSS","JavaScript","API"],
+            "live-link": "https://brennanformanek.ca/JSOOP/",
+            "github_link": "https://github.com/Lanfear7/Project5",
+            "images": "/Images/API.PNG"
+        }
+    ]
+}
