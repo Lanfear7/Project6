@@ -17,8 +17,8 @@ block content
       //- Use the Pug `each` iterator to create a project img, title and link in the markup for each of the projects you are showcasing.
       .cell
         each project in data
-         a(href=`${project.github_link}`)
-           img.thumbnail(src=`/static/${project.images}`)
+         a(href=`/projects/${project.id}`)
+           img.thumbnail(src=`/static/${project.images[0]}`)
            h5= project.project_name
       //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
       
