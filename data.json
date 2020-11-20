@@ -5,7 +5,7 @@
             "project_name": "Random phrase generator",
             "description": "This will generate a random phrase along with a random background color every 15 seconds",
             "technologies": ["HTML","CSS","JavaScript"],
-            "live_link": "https://brennanformanek.ca",
+            "live_link": "https://brennanformanek.ca/phraseGuesser/",
             "github_link": "https://github.com/Lanfear7/TreehouseProject1",
             "images": ["/Images/quoteGen.PNG", "/Images/quoteGen2.PNG"]
         },
@@ -41,7 +41,7 @@
             "project_name": "Public API Requests",
             "description": "Each time the page is refreshed the app will send a request the a API to get new user data a display it",
             "technologies": ["HTML","CSS","JavaScript","API"],
-            "live_link": "https://brennanformanek.ca/JSOOP/",
+            "live_link": "https://brennanformanek.ca/API",
             "github_link": "https://github.com/Lanfear7/Project5",
             "images": ["/Images/API.PNG", "/Images/API2.PNG"]
         }
