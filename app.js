@@ -22,7 +22,7 @@ app.use('/projects', projectsRoutes);
 app.use((err, req, res, next) => {
     console.log(err)
     if(err.status === 404){
-        console.log('*********pageError*********')
+        console.log('*******pageError*******')
         res.render('not-found',  { err })
     }else {
         console.log('*********serverError*********')
