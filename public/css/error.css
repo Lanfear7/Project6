@@ -7,7 +7,7 @@ h1, h2{
 }
 .button{
     width: 110px;
-    background-color: rgb(252, 4, 190);  
+    background-color: rgb(4, 194, 252);  
     display: flex;  
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@ h1, h2{
     border-radius: 25px;
 }
 a{
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: rgba(238, 130, 238, 0);
     text-decoration: none;
 }
