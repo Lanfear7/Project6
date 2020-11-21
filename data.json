@@ -14,7 +14,7 @@
             "project_name": "Data Pagination and Filtering",
             "description": "Added pagination to profile data to make it a nice user experience ",
             "technologies": ["HTML","CSS","JavaScript"],
-            "live_link": "https://brennanformanek.ca/JS%20Pagination/",
+            "live_link": "https://brennanformanek.ca/js%20pagination/",
             "github_link": "https://github.com/Lanfear7/Project2",
             "images": ["/Images/pagination.png", "/Images/pagination3.png"]
         },

@@ -20,7 +20,7 @@ app.use('/projects', projectsRoutes);
 
 //error handling 
 app.use((req, res, next) =>{
-    var err = new Error('Page not found')
+    var err = new Error('Page Not Found')
     err.status = 404
     next(err)
 })
@@ -28,6 +28,7 @@ app.use((req, res, next) =>{
 //Global error handling\
 app.use((err, req, res, next) => {
     if(err.status === 404){
+        console.log({ err }.err)
         res.render('not-found',  { err })
     }else {
         err.message = err.message || 'Looks like there was a server error'

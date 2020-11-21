@@ -1,0 +1,22 @@
+*{
+    background-color: rgb(49, 49, 49);
+}
+h1, h2{
+    color: white;
+    margin-left: 5%;
+}
+.button{
+    width: 110px;
+    background-color: rgb(252, 4, 190);  
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    height: 30px;
+    border-radius: 25px;
+}
+a{
+    color: white;
+    background-color: rgba(238, 130, 238, 0);
+    text-decoration: none;
+}

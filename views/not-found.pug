@@ -1,3 +1,6 @@
-h1 Page error
+head
+    link(rel='stylesheet', href='/static/css/error.css')
+h1 Page Error
 h2= `${err.status} - ${err.message} `
-a(href='http://localhost:3000/') Main page
+div(class='button')
+    a(href='http://localhost:3000/') Main page

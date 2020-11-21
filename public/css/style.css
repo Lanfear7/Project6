@@ -39,11 +39,11 @@ h1,h2,h3,h4,h5,p{
 }
 
 a{
-  color: #333;
+  color: rgb(37, 37, 37);
 }
 
 a:hover{
-  color: #111;
+  color: rgb(4, 194, 252);
 }
 
 .image{
@@ -79,7 +79,7 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color:  rgb(4, 194, 252);
   }
 
 .portfolio-breadcrumb{
@@ -118,6 +118,7 @@ a:hover{
 
   .portfolio-index a{
     color: #222;
+
   }
 
   .portfolio-index .cell{
@@ -135,6 +136,10 @@ a:hover{
   .portfolio-meta .button{
     margin-bottom: 5px;
   }
+  .portfolio-meta .button:hover{
+    margin-bottom: 5px;
+    color:  rgb(4, 194, 252);
+  }
 
 .portfolio-project p{
   border: none;
@@ -147,4 +152,7 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+.project{
+  height: 300px;
 }
