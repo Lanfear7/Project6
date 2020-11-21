@@ -10,7 +10,7 @@ const projectsRoutes = require('./routes/projects');
 
 const app = express();
 
-
+app.set('port', process.env.PORT || 3000);//sets the port to 3000 if no port
 app.set('view engine', 'pug');//set template engine to pug
 app.use('/static', express.static('public'));//serve files from public folder
 
@@ -18,12 +18,6 @@ app.use(mainRoutes);
 app.use('/about', aboutRoutes);
 app.use('/projects', projectsRoutes);
 
-//error handling 
-app.use((req, res, next) =>{
-    var err = new Error('Page not found')
-    err.status = 404
-    next(err)
-})
 //Global error handling\
 app.use((err, req, res, next) => {
     console.log(err)
