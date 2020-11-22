@@ -30,7 +30,7 @@ app.use((err, req, res, next) => {
     if(err.status === 404){
         console.log({ err }.err)
         res.render('not-found',  { err })
-    }else {
+    } else {
         err.message = err.message || 'Looks like there was a server error'
         err.status = err.status || 500
         res.render('error', { err })

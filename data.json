@@ -16,7 +16,7 @@
             "technologies": ["HTML","CSS","JavaScript"],
             "live_link": "https://brennanformanek.ca/js%20pagination/",
             "github_link": "https://github.com/Lanfear7/Project2",
-            "images": ["/Images/pagination.png", "/Images/pagination3.png"]
+            "images": ["/Images/pagination.PNG", "/Images/pagination3.PNG"]
         },
         {
             "id": 2,
@@ -34,7 +34,7 @@
             "technologies": ["HTML","CSS","JavaScript"],
             "live_link": "https://brennanformanek.ca/JSOOP/",
             "github_link": "https://github.com/Lanfear7/Project4",
-            "images": ["/Images/OOP1.png", "/Images/OOP2.png"]
+            "images": ["/Images/OOP1.PNG", "/Images/OOP2.PNG"]
         },
         {
             "id": 4,
