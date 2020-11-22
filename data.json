@@ -3,7 +3,7 @@
         {
             "id": 0,
             "project_name": "Random phrase generator",
-            "description": "This will generate a random phrase along with a random background color every 15 seconds",
+            "description": "This will generate a random phrase along with a random background color every 15 seconds.",
             "technologies": ["HTML","CSS","JavaScript"],
             "live_link": "https://brennanformanek.ca/phraseGuesser/",
             "github_link": "https://github.com/Lanfear7/TreehouseProject1",
@@ -12,7 +12,7 @@
         {
             "id": 1,
             "project_name": "Data Pagination and Filtering",
-            "description": "Added pagination to profile data to make it a nice user experience ",
+            "description": "Added pagination to profile data to make it a nice user experience.",
             "technologies": ["HTML","CSS","JavaScript"],
             "live_link": "https://brennanformanek.ca/js%20pagination/",
             "github_link": "https://github.com/Lanfear7/Project2",
@@ -21,17 +21,17 @@
         {
             "id": 2,
             "project_name": "Interactive Form",
-            "description": "Each form element will check to make sure the user data is formatted correctly ",
-            "technologies": ["HTML","CSS","JavaScript"],
+            "description": "Each form element will check to make sure the user data is formatted correctly using regex. If you a are missing a pice of data it will come up in red displaying what you need to fill in in order to complete the form. ",
+            "technologies": ["HTML","CSS","JavaScript","Regex"],
             "live_link": "https://brennanformanek.ca/Form/",
             "github_link": "https://github.com/Lanfear7/Porject3",
             "images": ["/Images/form.PNG","/Images/form2.PNG"]
         },
         {
             "id": 3,
-            "project_name": "JavaScript Object Oriented Programming",
-            "description": "Each phrase (song name) is its own object, you have a onscreen keyboard or your own keyboard to use to try to guess the name of the song",
-            "technologies": ["HTML","CSS","JavaScript"],
+            "project_name": "Music guessing game",
+            "description": "Each phrase (song name) is its own object, you have a onscreen keyboard or your own keyboard to use to try to guess the name of the song. Each time you enter a letter it will see if the letter is in the song name, you have 5 tries to guess the name before you lose.",
+            "technologies": ["HTML","CSS","JavaScript","Object Oriented Programming"],
             "live_link": "https://brennanformanek.ca/JSOOP/",
             "github_link": "https://github.com/Lanfear7/Project4",
             "images": ["/Images/OOP1.PNG", "/Images/OOP2.PNG"]
@@ -39,7 +39,7 @@
         {
             "id": 4,
             "project_name": "Public API Requests",
-            "description": "Each time the page is refreshed the app will send a request the a API to get new user data a display it",
+            "description": "Each time the page is refreshed the app will send a request the a API to get new user data a display it. You can search you specific user on the page to bring up a card to display more data about that person, this can also be done by clicking on a user.",
             "technologies": ["HTML","CSS","JavaScript","API"],
             "live_link": "https://brennanformanek.ca/API",
             "github_link": "https://github.com/Lanfear7/Project5",
