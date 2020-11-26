@@ -3,6 +3,7 @@ const router = express.Router();
 const data = require('../data.json'); //require project data
 
 router.get('/', (req, res,) => {
+    // for /projects/  will redirect to /projects/0
     console.log('redirecting')
     res.redirect('/projects/0')
 })
