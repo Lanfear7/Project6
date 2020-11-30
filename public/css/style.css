@@ -2,12 +2,19 @@
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
 }
+  h1{
+    color: rgb(4, 194, 252);
+  }
 
   h5{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
+    
+  }
+  .cell.auto h5{
+    color: rgb(4, 194, 252);
   }
 
   h6{
@@ -15,6 +22,7 @@ h1,h2,h3,h4,h5,p{
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
     font-weight: 600;
+    color: rgb(4, 194, 252);
   }
 
   p{
@@ -115,7 +123,6 @@ a:hover{
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
   }
-
   .portfolio-index a{
     color: #222;
 
@@ -143,13 +150,16 @@ a:hover{
 
 .portfolio-project p{
   border: none;
+  color: rgb(10, 10, 10);
 }
 
 .portfolio-project li{
   font-size: 13px;
-  color: #444;
+  color: rgb(10, 10, 10);
 }
-
+p.lead.text-light{
+  color: rgb(10, 10, 10);
+}
 .portfolio-bio{
     line-height: 25px;
 }
